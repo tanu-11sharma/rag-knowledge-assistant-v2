@@ -1,0 +1,6 @@
+TITLE: API Rate Limits
+The Free plan is limited to 60 requests per minute per API key.
+The Pro plan is limited to 600 requests per minute per API key.
+The Enterprise plan has no fixed rate limit and is provisioned per contract.
+When a rate limit is exceeded, the API returns HTTP 429 with a Retry-After header in seconds.
+Rate limit usage can be checked at any time via the GET /usage endpoint.
