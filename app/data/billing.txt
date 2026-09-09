@@ -1,0 +1,7 @@
+TITLE: Billing & Plans
+We offer three plans: Free, Pro, and Enterprise.
+The Free plan includes 1,000 API calls per month and community support.
+The Pro plan costs 49 dollars per month and includes 100,000 API calls plus email support.
+The Enterprise plan is custom-priced, includes unlimited API calls, a dedicated account manager, and a 99.9 percent uptime SLA.
+Invoices are issued monthly and can be downloaded from the Billing tab as a PDF.
+Downgrading a plan takes effect at the start of the next billing cycle, not immediately.
