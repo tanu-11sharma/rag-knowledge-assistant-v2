@@ -1,0 +1,5 @@
+TITLE: Data Export
+Account data can be exported at any time from Settings > Export as a ZIP file containing CSV tables.
+Full account exports are generated asynchronously and a download link is emailed within 30 minutes.
+Enterprise customers can additionally request a nightly automated export to their own S3 bucket.
+Exported data is retained for 7 days on our servers before being deleted.
