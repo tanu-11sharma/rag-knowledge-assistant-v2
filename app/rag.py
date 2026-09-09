@@ -112,7 +112,7 @@ def load_chunks(data_dir: Path = DATA_DIR) -> list[Chunk]:
     return chunks
 
 
-def build_index(data_dir: oPath = DATA_DIR) -> Bm25Index:
+def build_index(data_dir: Path = DATA_DIR) -> Bm25Index:
     return Bm25Index(load_chunks(data_dir))
 
 
