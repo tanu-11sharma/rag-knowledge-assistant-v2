@@ -1,0 +1,5 @@
+TITLE: Authentication
+All API requests require an API key passed in the Authorization header as a Bearer token.
+API keys can be rotated at any time from the Developer Settings page; the old key remains valid for 24 hours after rotation to avoid downtime.
+OAuth 2.0 is supported for user-facing integrations using the authorization code flow.
+We do not support Basic Auth or API keys passed as URL query parameters, for security reasons.
